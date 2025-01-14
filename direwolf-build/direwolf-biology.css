@@ -38,3 +38,12 @@ body {position: relative; right: 0; font-family: 'Telegraf'; -webkit-font-smooth
 #section-2 .content span{ display: block; max-width: max-content; border: .05vw solid #FF6B00; color: #FF6B00; padding: .3vw .6vw; font-family: 'NB Architekt Std'; text-transform: uppercase; font-size: .8vw;}
 #section-2 .content h2 {font-size: 2.8vw; color: #000000; font-weight: 800; font-family: 'Telegraf Bold'; margin: 2.5vw 0 1.2vw;}
 #section-2 .content p {font-size: 1.2vw; color: #000000; line-height: 1.7; font-weight: 400; font-family: 'Telegraf'}
+
+
+#section-3 {width: 100%; position: relative; }
+#section-3 .bg {width: 100%;}
+#section-3 h2  {font-family: 'NB Architekt Std'; position: absolute; font-size: 6.87vw; font-weight: 300; color: #000000;}
+#section-3 .heading-1 {top: 11.8vw; left: -0.4vw}
+#section-3 .heading-2 {top: 18.9vw; left: 11.7vw;}
+#section-3 p {position: absolute; left: 57.8vw; top: 18.6vw; font-size: 1.1vw;}
+
