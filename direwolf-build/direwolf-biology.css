@@ -18,7 +18,10 @@ body {position: relative; right: 0; font-family: 'Telegraf'; -webkit-font-smooth
 #hero .img-1 {position: absolute; width: 25%; z-index: 2; left: 15%; top: 55vw;}
 #hero .img-2 {position: absolute; width: 25%; z-index: 2; left: 62%; top: 82vw;}
 
-#section-1 {background: #000000; padding: 2vw 0 11vw; position: relative;  }  
+
+
+#section-1 {background: #000000; padding: 2vw 0 14vw; position: relative;  }  
+#section-1::before {content: ''; width: 38vw; height: 1.8vw; background-color: #ffffff; position: absolute; right: 6vw; bottom: 0;}  
 #section-1 .bg {width: 94vw;}
 #section-1 .tr-text {position: absolute; right: 10vw; top: 2.25vw; text-align: right; }
 #section-1 .tr-text p {font-family: 'NB Architekt Std'; color: #ffffff; font-size: 0.7vw;}
@@ -26,3 +29,12 @@ body {position: relative; right: 0; font-family: 'Telegraf'; -webkit-font-smooth
 #section-1 .content ._row {display: flex; justify-content: space-between; height: 8vw;}
 #section-1 .content ._col {width: 22.5%; padding: 2.8vw 0 0 .25vw;}
 #section-1 .content ._col h2 {min-width: max-content; font-family: 'Telegraf'; font-size: 1.6vw; font-weight: 400; letter-spacing: 0.01em; color: #FFFFFF }
+
+
+
+#section-2 { background: #ffffff; padding: 0 0 10vw; position: relative; }
+#section-2 .bg { width:99vw; }
+#section-2 .content {width: 40vw; position: absolute; right: 10vw; top: 10vw;}
+#section-2 .content span{border: 1px solid #FF6B00; color: #FF6B00; padding: .5vw .7vw; font-family: 'NB Architekt Std'; text-transform: uppercase; font-size: .6vw;}
+#section-2 .content h2 {font-size: 2.1vw; font-weight: 800; font-family: 'Telegraf Bold'}
+#section-2 .content h2 {font-size: 2.1vw; font-weight: 800; font-family: 'Telegraf Bold'}
