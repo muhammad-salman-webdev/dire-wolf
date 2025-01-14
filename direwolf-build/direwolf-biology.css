@@ -40,10 +40,14 @@ body {position: relative; right: 0; font-family: 'Telegraf'; -webkit-font-smooth
 #section-2 .content p {font-size: 1.2vw; color: #000000; line-height: 1.7; font-weight: 400; font-family: 'Telegraf'}
 
 
+
 #section-3 {width: 100%; position: relative; }
 #section-3 .bg {width: 100%;}
 #section-3 h2  {font-family: 'NB Architekt Std'; position: absolute; font-size: 6.87vw; font-weight: 300; color: #000000;}
 #section-3 .heading-1 {top: 11.8vw; left: -0.4vw}
 #section-3 .heading-2 {top: 18.9vw; left: 11.7vw;}
-#section-3 p {position: absolute; left: 57.8vw; top: 18.6vw; font-size: 1.1vw;}
+#section-3 p {position: absolute; left: 57.8vw; top: 18.6vw; font-size: 1.1vw; ;}
+#section-3 ._row {position: absolute; top: 39.4vw; display: flex; left: 5vw; right: 4vw;   gap: 1.5vw;}
+#section-3 ._col {width: 100%;}
+#section-3 ._col h4 {font-family: 'NB Architekt Std'; font-weight: 400; font-size: 1.2vw;      }
 
