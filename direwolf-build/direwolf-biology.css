@@ -1,0 +1,28 @@
+@font-face { font-family: 'NB Architekt Light'; src: url('fonts/NBArchitektStd-Light.woff2') format('woff2'), url('fonts/NBArchitektStd-Light.woff') format('woff'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'NB Architekt Std'; src: url('fonts/NBArchitektStd-Regular.woff2') format('woff2'), url('fonts/NBArchitektStd-Regular.woff') format('woff'); font-weight: normal; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Telegraf Light'; src: url('fonts/Telegraf-UltraLight.woff2') format('woff2'), url('fonts/Telegraf-UltraLight.woff') format('woff'); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Telegraf Bold'; src: url('fonts/Telegraf-UltraBold.woff2') format('woff2'), url('fonts/Telegraf-UltraBold.woff') format('woff'); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Telegraf'; src: url('fonts/Telegraf-Regular.woff2') format('woff2'), url('fonts/Telegraf-Regular.woff') format('woff'); font-weight: normal; font-style: normal; font-display: swap; }
+
+
+html {max-width: 2000px; margin: 0 auto; background: #EEE;}
+body {position: relative; right: 0; font-family: 'Telegraf'; -webkit-font-smoothing: antialiased;}
+
+
+
+#hero {background: #000; text-align: center; color: #FFF; padding-top:25vw;}
+#hero .box {position: absolute; left: 50%; transform: translateX(-50%); color: #ff6b01; border: 1px solid #ff6b01; font-family: 'NB Architekt Light'; font-size: 1.5vw; padding: 0.5vw 1vw; z-index: 2; top: 20vw;}
+#hero h1 {font-family: 'NB Architekt Light'; font-size: 10vw; position: absolute; left: 50%; transform: translateX(-50%); width: 100%; line-height: 1; color: #424242; top: 21.5vw;}
+#hero h1 span {color: #FFF;}
+#hero .bg {width: 100%; position: relative; z-index: 1;}
+#hero .img-1 {position: absolute; width: 25%; z-index: 2; left: 15%; top: 55vw;}
+#hero .img-2 {position: absolute; width: 25%; z-index: 2; left: 62%; top: 82vw;}
+
+#section-1 {background: #000000; padding: 2vw 0 11vw; position: relative;  }  
+#section-1 .bg {width: 94vw;}
+#section-1 .tr-text {position: absolute; right: 10vw; top: 2.25vw; text-align: right; }
+#section-1 .tr-text p {font-family: 'NB Architekt Std'; color: #ffffff; font-size: 0.7vw;}
+#section-1 .content {width: 80vw; margin-left: 10vw; margin-top:7vw; position: absolute; }
+#section-1 .content ._row {display: flex; justify-content: space-between; height: 8vw;}
+#section-1 .content ._col {width: 22.5%; padding: 2.8vw 0 0 .25vw;}
+#section-1 .content ._col h2 {min-width: max-content; font-family: 'Telegraf'; font-size: 1.6vw; font-weight: 400; letter-spacing: 0.01em; color: #FFFFFF }
